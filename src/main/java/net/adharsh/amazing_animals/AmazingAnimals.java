@@ -1,5 +1,6 @@
 package net.adharsh.amazing_animals;
 
+import net.adharsh.amazing_animals.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class AmazingAnimals implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
